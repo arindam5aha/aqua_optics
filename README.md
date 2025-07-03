@@ -2,7 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15800501.svg)](https://doi.org/10.5281/zenodo.15800501)
 
-<img src="figs/fig_1.svg" width="800"/>
+![Experimental setup figure](figs/fig_1.svg)
 
 ### 🔗 Links to the paper
 Published on:
