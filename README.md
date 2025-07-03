@@ -2,6 +2,8 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15800501.svg)](https://doi.org/10.5281/zenodo.15800501)
 
+<img src="figs/fig_1.svg" width="800"/>
+
 ### 🔗 Links to the paper
 Published on:
 [Optica](https://doi.org/10.1364/OPTICA.562734)
@@ -10,7 +12,7 @@ Also available on:
 [arXiv](https://arxiv.org/abs/2503.14260)
 
 ## 📊 Project Overview
-This project contains the data collected from the experiment through multiple rounds of optimisation. The data presented here can be used to train ML models for various purposes.
+This project contains the data collected from the experiment through multiple rounds of optimisation. The data presented here can be used to train ML models for various purposes, including pre-training of AQUA.
 This repository contains tools and notebooks for analyzing raw experimental data, with a focus on:
 
 - Thermal drift correction in optical traces
@@ -24,8 +26,9 @@ This repository contains tools and notebooks for analyzing raw experimental data
 aqua_optics/
 ├── data_explorer.ipynb         # Main analysis notebook
 ├── utils.py                    # Core utility functions
-└── env_data/                   # Experimental data directory
-    └── sampled_data_*.bz2      # Compressed data files
+├── env_data/                   # Experimental data directory
+|   └── sampled_data_*.bz2      # Compressed data files
+└── figs/                       # Experimental Setup figure
 
 ```
 
@@ -59,9 +62,9 @@ cd aqua_optics
 
 Each data file contains:
 
-- `obs`: Optical trace observations (photodetector intensity vs scan position)
-- `params`: Experimental parameters used
-- `reward`/`costs`: ML agent performance metrics
+- `obs`: Optical traces as observations
+- `params`: Experimental control parameters used
+- `reward`/`costs`: Raw performance metrics
 
 
 ## 👨‍💻 Author
