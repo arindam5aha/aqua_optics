@@ -1,12 +1,8 @@
 # Automating experimental optics with sample-efficient machine learning methods
-<<<<<<< HEAD
+
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15800501.svg)](https://doi.org/10.5281/zenodo.15800501)
 
 ### 🔗 Links to the paper
-=======
-
-### 🔗 Links
->>>>>>> 7a07957ed9babb535f0fd49a78f0a9c9b5a140af
 Published in
 [Optica](https://doi.org/10.1364/OPTICA.562734)
 
