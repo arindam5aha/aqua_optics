@@ -47,9 +47,9 @@ git clone https://github.com/arindam5aha/aqua_optics.git
 cd aqua_optics
 ```
 
-## 🔧 Key Functions
+## 🔧 Utilities
 
-### utils.py Functions
+### utils.py functions
 
 - `save_bz2()` / `load_bz2()`: Compress/decompress experimental data
 - `allign_traces()`: Correct thermal drift in optical measurements
@@ -58,7 +58,14 @@ cd aqua_optics
 - `topk()`: Extract top-k performing measurements
 - `max_till()`: Track cumulative maximum values
 
-## 📈 Data Format
+## 📈 Data Handling
+
+Basic Data Loading:
+```python
+from utils import *
+path = './env_data/sampled_data_909.bz2'
+data = load_bz2(path)
+```
 
 Each data file contains:
 
