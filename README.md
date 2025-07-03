@@ -71,19 +71,7 @@ Australian National University (ANU), 2025
 
 - GitHub: [@arindam5aha](https://github.com/arindam5aha)
 - Email: <arindam96@outlook.com>
-
-## 📚 Citation
-
-If you use this code in your research, please cite:
-
-```bibtex
-@misc{saha2025aquaoptics,
-  title={Aqua Optics: ML-Driven Optical Data Analysis},
-  author={Saha, Arindam},
-  year={2025},
-  institution={Australian National University}
-}
-```
+- Linkedin: [@arindams96](https://www.linkedin.com/in/arindams96/)
 
 ## 🐛 Issues
 
