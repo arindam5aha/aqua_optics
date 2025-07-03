@@ -2,7 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15800501.svg)](https://doi.org/10.5281/zenodo.15800501)
 
-![Experimental setup figure](figs/fig_1.svg)
+![Experimental setup figure]((https://github.com/arindam5aha/aqua_optics/blob/main/figs/Fig_1.svg))
 
 ### 🔗 Links to the paper
 Published on:
