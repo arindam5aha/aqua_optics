@@ -3,15 +3,15 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15800501.svg)](https://doi.org/10.5281/zenodo.15800501)
 
 ### 🔗 Links to the paper
-Published in
+Published on:
 [Optica](https://doi.org/10.1364/OPTICA.562734)
 
-Also available on 
+Also available on:
 [arXiv](https://arxiv.org/abs/2503.14260)
 
 ## 📊 Project Overview
-This project contains the data collected from the experiment through multiple rounds of optimisation. Some of the data here 
-This repository contains tools and notebooks for analyzing optical traces collected from photodetector intensity measurements, with a focus on:
+This project contains the data collected from the experiment through multiple rounds of optimisation. The data presented here can be used to train ML models for various purposes.
+This repository contains tools and notebooks for analyzing raw experimental data, with a focus on:
 
 - Thermal drift correction in optical traces
 - Data visualization with color-coded performance metrics
