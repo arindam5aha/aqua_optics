@@ -13,11 +13,12 @@ Also available on:
 
 ## 📊 Project Overview
 This project contains the data collected from the experiment through multiple rounds of sampling/ optimisation. The data presented here can be used to train ML models for various purposes, including pre-training of AQUA.
-This repository contains tools and notebooks for analyzing raw experimental data, with a focus on:
+This repository contains tools and notebooks for analysing raw experimental data.
 
-- Thermal drift correction in optical traces
-- Data visualization with color-coded performance metrics
-- Batch processing of experimental data
+## 🎯 Suggested use cases
+- Data for training and testing ML models
+- Create augmented environments for testing RL agents
+- Classification, feature learning
 
 
 ## 📁 Project Structure
