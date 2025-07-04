@@ -26,10 +26,9 @@ This repository contains tools and notebooks for analyzing raw experimental data
 aqua_optics/
 ├── data_explorer.ipynb         # Main analysis notebook
 ├── utils.py                    # Core utility functions
-├── env_data/                   # Experimental data directory
-|   └── sampled_data_*.bz2      # Compressed data files
-└── figs/                       # Experimental Setup figure
-
+├── figs/                       # Experimental Setup figure
+└── env_data/                   # Experimental data directory
+    └── sampled_data_*.bz2      # Compressed data files
 ```
 
 ## 🚀 Getting Started
