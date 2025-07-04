@@ -63,7 +63,7 @@ cd aqua_optics
 Basic Data Loading:
 ```python
 from utils import *
-path = './env_data/sampled_data_909.bz2'
+path = './env_data/filename.bz2'
 data = load_bz2(path)
 ```
 
