@@ -68,7 +68,7 @@ data = load_bz2(path)
 
 Each data file contains:
 
-- `obs`: Optical traces as observations
+- `obs`: Cavity traces as observations
 - `params`: Experimental control parameters used
 - `reward`/`costs`: Raw performance metrics
 
