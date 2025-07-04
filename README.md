@@ -5,7 +5,7 @@
 <img src="https://github.com/arindam5aha/aqua_optics/blob/main/figs/Fig_1.svg" width="700"/>
 
 ### 🔗 Links to the paper
-Published on:
+Accepted by:
 [Optica](https://doi.org/10.1364/OPTICA.562734)
 , also available on:
 [arXiv](https://arxiv.org/abs/2503.14260)
