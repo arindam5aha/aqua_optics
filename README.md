@@ -7,8 +7,7 @@
 ### 🔗 Links to the paper
 Published on:
 [Optica](https://doi.org/10.1364/OPTICA.562734)
-
-Also available on:
+, also available on:
 [arXiv](https://arxiv.org/abs/2503.14260)
 
 ## 📊 Project Overview
