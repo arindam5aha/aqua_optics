@@ -12,7 +12,7 @@ Also available on:
 [arXiv](https://arxiv.org/abs/2503.14260)
 
 ## 📊 Project Overview
-This project contains the data collected from the experiment through multiple rounds of optimisation. The data presented here can be used to train ML models for various purposes, including pre-training of AQUA.
+This project contains the data collected from the experiment through multiple rounds of sampling/ optimisation. The data presented here can be used to train ML models for various purposes, including pre-training of AQUA.
 This repository contains tools and notebooks for analyzing raw experimental data, with a focus on:
 
 - Thermal drift correction in optical traces
@@ -72,6 +72,18 @@ Each data file contains:
 - `obs`: Optical traces as observations
 - `params`: Experimental control parameters used
 - `reward`/`costs`: Raw performance metrics
+
+### Control parameter specs
+The bounds below specify the allowed range for each actuator, set by the physical and mechanical limits of the setup. They ensure safe operation and precise control of lens translation and mirror tip/tilt. Values are in actuator enocoder counts.
+
+| Parameter   | Bounds               |
+|-------------|----------------------|
+| Lens 1      | (-100000, 100000)    |
+| Lens 2      | (-100000, 100000)    |
+| Mirror 1x   | (-5000, 5000)        |
+| Mirror 1y   | (-5000, 5000)        |
+| Mirror 2x   | (-5000, 5000)        |
+| Mirror 2y   | (-5000, 5000)        |
 
 
 ## 👨‍💻 Author
